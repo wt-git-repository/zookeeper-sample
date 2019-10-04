@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09c979f4-567a-4f18-926d-1826b38f655b" name="Default Changelist" comment="" />
+    <list default="true" id="09c979f4-567a-4f18-926d-1826b38f655b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/server/Server.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,54 +20,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dev/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="494">
+              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#680#905#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#1062#1070#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dev/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dev/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="418">
+              <caret line="47" column="111" selection-start-line="47" selection-start-column="109" selection-end-line="47" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#438#1046#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar!/org/apache/zookeeper/Watcher.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#2724#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/org/apache/zookeeper/Watcher.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-779">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -78,12 +64,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properies" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dev/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dev/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dev/server/Server.java" />
       </list>
     </option>
   </component>
@@ -99,6 +90,7 @@
     <option name="width" value="1264" />
     <option name="height" value="682" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,6 +134,24 @@
               <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -153,6 +163,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -179,7 +190,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.App.exit">
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.client.Client" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dev.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.server.Server" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dev.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App.createNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaProject" />
       <extension name="coverage">
@@ -228,45 +265,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dev" />
-      <option name="MAIN_CLASS_NAME" value="com.dev.App" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dev" />
-      <option name="MAIN_CLASS_NAME" value="com.dev.App" />
-      <option name="METHOD_NAME" value="run" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.App.exit" />
-        <item itemvalue="JUnit.App.getNode" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.App.createNode" />
-        <item itemvalue="JUnit.App.run" />
-        <item itemvalue="JUnit.App.main" />
+        <item itemvalue="JUnit.App.getNode" />
+        <item itemvalue="JUnit.App.exit" />
       </list>
     </recent_temporary>
   </component>
@@ -280,44 +285,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570076663546</updated>
-      <workItem from="1570076665965" duration="13203000" />
+      <workItem from="1570076665965" duration="24017000" />
     </task>
+    <task id="LOCAL-00001" summary="upload">
+      <created>1570178851666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570178851666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="App_createNode - 2019.10.03 at 16h 39m 07s.xml">
-      <configuration name="App.createNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_createNode - 2019.10.03 at 16h 43m 28s.xml">
-      <configuration name="App.createNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_getNode - 2019.10.03 at 17h 34m 22s.xml">
+    <history-entry file="App_getNode - 2019.10.04 at 16h 05m 21s.xml">
       <configuration name="App.getNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="App_run - 2019.10.03 at 17h 43m 44s.xml">
-      <configuration name="App.run" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_run - 2019.10.03 at 17h 44m 44s.xml">
-      <configuration name="App.run" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_run - 2019.10.03 at 17h 46m 00s.xml">
-      <configuration name="App.run" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_run - 2019.10.03 at 17h 47m 26s.xml">
-      <configuration name="App.run" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_createNode - 2019.10.03 at 17h 47m 36s.xml">
-      <configuration name="App.createNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_getNode - 2019.10.03 at 17h 48m 34s.xml">
+    <history-entry file="App_getNode - 2019.10.04 at 16h 07m 05s.xml">
       <configuration name="App.getNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="App_exit - 2019.10.03 at 17h 52m 13s.xml">
-      <configuration name="App.exit" configurationId="JUnit" />
+    <history-entry file="App_getNode - 2019.10.04 at 16h 07m 27s.xml">
+      <configuration name="App.getNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_getNode - 2019.10.04 at 16h 08m 41s.xml">
+      <configuration name="App.getNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_getNode - 2019.10.04 at 16h 09m 56s.xml">
+      <configuration name="App.getNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_getNode - 2019.10.04 at 16h 10m 46s.xml">
+      <configuration name="App.getNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_getNode - 2019.10.04 at 16h 13m 09s.xml">
+      <configuration name="App.getNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_getNode - 2019.10.04 at 16h 13m 44s.xml">
+      <configuration name="App.getNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_createNode - 2019.10.04 at 16h 21m 06s.xml">
+      <configuration name="App.createNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_createNode - 2019.10.04 at 16h 21m 35s.xml">
+      <configuration name="App.createNode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13203000" />
+    <option name="totallyTimeSpent" value="24017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1035" extended-state="6" />
@@ -335,13 +348,13 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3278328" />
+      <window_info anchor="bottom" id="Messages" weight="0.32745314" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32893288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,6 +372,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dev/HelloWorldActionTest.java">
@@ -404,13 +421,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dev/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="418">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="109" selection-end-line="47" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#438#1046#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dev/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#905#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#1062#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dev/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>

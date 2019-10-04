@@ -24,7 +24,7 @@ public class Server {
         }
     }
 
-    private static String regiest(String hostname) throws Exception{
+    private static String register(String hostname) throws Exception{
         // 服务器退出，会自动删除节点
         String path = zkClient.create("/servers/test", hostname.getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL_SEQUENTIAL);
         System.out.println(hostname  + " is online");
@@ -40,7 +40,7 @@ public class Server {
             // 1、连接Zookeeper 集群
             getConnection();
             // 2、注册节点
-            String path = regiest("server");
+            String path = register("server");
 
             // 3、业务逻辑处理
         } catch (Exception e) {
