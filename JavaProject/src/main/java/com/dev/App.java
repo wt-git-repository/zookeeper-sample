@@ -24,7 +24,7 @@ public class App {
                 try {
                     System.out.println("--------------------------");
                     // 第一个参数是路径，第二个参数是是否监听
-                    List<String> children = zkClient.getChildren("/", true);
+                    List<String> children = zkClient.getChildren("/servers", true);
 
                     for (String child : children) {
                         System.out.println(child);
@@ -45,7 +45,7 @@ public class App {
 
         System.out.println("enter");
 
-        String path = zkClient.create("/dev", "data".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+        String path = zkClient.create("/servers", "data".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 
         System.out.println(path);
     }
@@ -56,11 +56,7 @@ public class App {
     @Test
     public void getNode() throws Exception {
         // 第一个参数是路径，第二个参数是是否监听
-        List<String> children = zkClient.getChildren("/", true);
-
-        for (String child : children) {
-            System.out.println(child);
-        }
+        zkClient.getChildren("/servers", true);
 
         Thread.sleep(Integer.MAX_VALUE);
     }
